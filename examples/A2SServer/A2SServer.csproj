@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\source\NetCoreServer\NetCoreServer.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Multiverse.CSharpSDK" Version="1.0.8"/>
+    </ItemGroup>
+
+</Project>
